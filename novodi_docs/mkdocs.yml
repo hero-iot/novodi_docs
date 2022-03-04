@@ -1,0 +1,17 @@
+site_name: Novodi Documentation
+site_url: https://docs.novodi.com
+
+nav:
+    - Home: 'index.md'
+    - 'Idea Management':
+      - 'Overview': 'idea_management_overview.md'
+      - 'Access' : 'idea_management_access.md'
+      - 'Concept' : 'idea_management_concept.md'
+      - 'Stages' : 'idea_management_stages.md'
+      - 'Roles' : 'idea_management_roles.md'
+
+    - About: about.md
+
+theme:
+    name: mkdocs
+    custom_dir: custom_theme/
