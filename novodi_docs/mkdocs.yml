@@ -3,12 +3,16 @@ site_url: https://docs.novodi.com
 
 nav:
     - Home: 'index.md'
+    - Dashboard : 'dashboard.md'
     - 'Idea Management':
       - 'Overview': 'idea_management_overview.md'
       - 'Access' : 'idea_management_access.md'
       - 'Concept' : 'idea_management_concept.md'
-      - 'Stages' : 'idea_management_stages.md'
+      - 'Ideas' : 'idea_management_ideas.md'
+      - 'Sketches' : 'idea_management_sketches.md'
+      - 'Projects' : 'idea_management_projects.md'
       - 'Roles' : 'idea_management_roles.md'
+    - Marketplace : 'marketplace.md'
 
     - About: about.md
 

@@ -9,6 +9,7 @@ Visit the current public release here.
 
 ```bash
 pipenv shell
+pipenv update
 ```
 
 3. Build the documentation locally
