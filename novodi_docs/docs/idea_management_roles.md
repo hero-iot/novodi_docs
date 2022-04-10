@@ -1,6 +1,6 @@
 # Idea Management Roles
 
-The different roles different levels of access. Learn more about the concept behind the roles in the article [Idea Management Concept](/idea_management_concept)
+The different roles are different levels of access. Learn more about the concept behind the roles in the article [Idea Management Concept](/idea_management_concept)
 
 ## Overview
 
@@ -14,19 +14,19 @@ The different roles different levels of access. Learn more about the concept beh
 
 ## User
 
-A User can be added by added by an Owner or User Manager. They can submit and manage what the User created and or was assigned (ideas, project sketches, projects).
+A User can be added by added by an Owner or User Manager. They can submit and manage what the User created and or was assigned (Ideas, Sketches, Projects).
 
 ## Innovation Manager
 
-Innovation Managers facilitate process of collecting and qualifying ideas, prioritising project sketches and assist project creation and implementation.
+Innovation Managers facilitates the process of collecting and qualifying ideas, prioritizing project sketches and assists project creation and implementation.
 
-They can create and edit all ideas, project sketches and projects and have access to the evaluation and approval settings.
+They can create and edit all ideas, project sketches and projects and have access to the evaluation and approval options.
 
 ## User Manager
 
-User Manager manage who can access the idea management platform and their roles.
+User Manager controls who can access the idea management platform and what Roles users have.
 
-They can submit and manage what the User created and or was assigned (ideas, project sketches, projects).
+They can submit and manage what the user created and or was assigned (ideas, project sketches, projects) to them.
 
 ## Owner
 
