@@ -36,16 +36,9 @@
                             <li class="navitem">
                                 <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="navitem">
-                                <a href="../dashboard/" class="nav-link">Dashboard</a>
-                            </li>
                             <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Idea Management <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../idea_management_overview/" class="dropdown-item">Overview</a>
-</li>
                                     
 <li>
     <a href="../idea_management_access/" class="dropdown-item">Access</a>
@@ -53,6 +46,10 @@
                                     
 <li>
     <a href="../idea_management_concept/" class="dropdown-item">Concept</a>
+</li>
+                                    
+<li>
+    <a href="../idea_management_dashboard/" class="dropdown-item">Dashboard</a>
 </li>
                                     
 <li>
@@ -87,7 +84,7 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../idea_management_concept/" class="nav-link">
+                                <a rel="prev" href="../idea_management_dashboard/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
@@ -136,11 +133,15 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#approving-an-idea" class="nav-link">Approving an Idea</a>
+            <li class="nav-item" data-level="2"><a href="#retracting-an-idea" class="nav-link">Retracting an Idea</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#rejecting-an-idea" class="nav-link">Rejecting an Idea</a>
+            <li class="nav-item" data-level="2"><a href="#approving-an-idea-innovation-manager" class="nav-link">Approving an Idea (Innovation Manager)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#rejecting-an-idea-innovation-manager" class="nav-link">Rejecting an Idea (Innovation Manager)</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -152,10 +153,10 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="ideas-any-role">Ideas (any role)</h1>
-<p>Ideas are any possible initatives, products or solutions which <strong>could</strong> enhance the team or organisation internally or their deliverables.
-Anyone in the organisation should be able submit ideas as easily as possible.
-Any role can draft ideas when they come up (Draft) and submitting them once completed (Submitted).</p>
-<p>The Innovation Manager facilites the process of reviewing ideas and eventually qualifying (Approved) or rejecting them (Rejected).</p>
+<p>Ideas are any possible initatives, products or solutions which <strong>could</strong> enhance the team or organization internally or their deliverables.
+Anyone in the organization should be able submit ideas as easily as possible.
+Any <a href="../idea_management_roles/">Role</a> can draft ideas when they come up (Draft) and submit them once completed (Submitted).</p>
+<p>The Innovation Manager facilitates the process of reviewing ideas and eventually qualifying (Approved) or reject them (Rejected).</p>
 <h2 id="idea-attributes">Idea Attributes</h2>
 <table>
 <thead>
@@ -209,11 +210,48 @@ Any role can draft ideas when they come up (Draft) and submitting them once comp
 </tbody>
 </table>
 <h2 id="add-an-idea">Add an Idea</h2>
+<ol>
+<li>Go to the Ideas tab in your organization and click 'New Idea'.</li>
+<li>Give the idea a title to easily identify the idea in lists.</li>
+<li>Give the idea a short summary which contains what should be done.</li>
+</ol>
+<p>You can now either 'Save as draft' or click 'Next' to add further information.</p>
+<ol>
+<li>Give the idea an description which contains how the idea could be implemented.</li>
+<li>Describe the advantages of implementing the idea.</li>
+<li>Describe the risks which come with implementing the idea.</li>
+</ol>
+<p>Either 'Save as draft' or 'Submit for review' -
+You can still edit the idea but the Innovation Manager will already see that you have submitted an idea.</p>
 <h2 id="edit-an-idea">Edit an Idea</h2>
+<ol>
+<li>Go to the Idea tab in your organization.</li>
+<li>Click on the Idea which you would like to edit and click 'edit'</li>
+</ol>
 <h2 id="submit-an-idea">Submit an Idea</h2>
+<p>Click on the Idea in the Idea tab and then click 'submit'.</p>
 <h2 id="reviewing-ideas-innovation-manager">Reviewing Ideas (Innovation Manager)</h2>
-<h2 id="approving-an-idea">Approving an Idea</h2>
-<h2 id="rejecting-an-idea">Rejecting an Idea</h2></div>
+<ol>
+<li>Go to the Idea tab in your organization</li>
+<li>Filter for Ideas with the status <em>submitted</em>.</li>
+<li>
+<p>Click on the Idea you wish to review and choose between the following options:</p>
+<ul>
+<li>approve the Idea</li>
+<li>reject the Idea</li>
+<li>retract submission</li>
+</ul>
+</li>
+</ol>
+<p>The status of the Idea will change accordingly.</p>
+<h2 id="retracting-an-idea">Retracting an Idea</h2>
+<p>Retract the Idea and it changes its status to <em>draft</em>. You can edit and submit the Idea again.</p>
+<p>Only the user who submitted the Idea can retract it.</p>
+<h2 id="approving-an-idea-innovation-manager">Approving an Idea (Innovation Manager)</h2>
+<p>Approving the Idea will create a Sketch. You will be prompted to assign the Sketch to a user who is responsible for completing the Sketch. The status of the Idea will automatically change to <em>approved</em>.</p>
+<p>Follow the link to see the Sketch.</p>
+<h2 id="rejecting-an-idea-innovation-manager">Rejecting an Idea (Innovation Manager)</h2>
+<p>The status of the Idea will be automatically changed to <em>rejected</em>.</p></div>
             </div>
         </div>
 

@@ -2,57 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.novodi.com/</loc>
-         <lastmod>2022-03-04</lastmod>
+         <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.novodi.com/about/</loc>
-         <lastmod>2022-03-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.novodi.com/dashboard/</loc>
-         <lastmod>2022-03-04</lastmod>
+         <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.novodi.com/idea_management_access/</loc>
-         <lastmod>2022-03-04</lastmod>
+         <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.novodi.com/idea_management_concept/</loc>
-         <lastmod>2022-03-04</lastmod>
+         <lastmod>2022-04-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.novodi.com/idea_management_dashboard/</loc>
+         <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.novodi.com/idea_management_ideas/</loc>
-         <lastmod>2022-03-04</lastmod>
+         <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.novodi.com/idea_management_overview/</loc>
-         <lastmod>2022-03-04</lastmod>
+         <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.novodi.com/idea_management_projects/</loc>
-         <lastmod>2022-03-04</lastmod>
+         <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.novodi.com/idea_management_roles/</loc>
-         <lastmod>2022-03-04</lastmod>
+         <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.novodi.com/idea_management_sketches/</loc>
-         <lastmod>2022-03-04</lastmod>
+         <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.novodi.com/marketplace/</loc>
-         <lastmod>2022-03-04</lastmod>
+         <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

@@ -36,16 +36,9 @@
                             <li class="navitem">
                                 <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="navitem">
-                                <a href="../dashboard/" class="nav-link">Dashboard</a>
-                            </li>
                             <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Idea Management <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../idea_management_overview/" class="dropdown-item">Overview</a>
-</li>
                                     
 <li>
     <a href="../idea_management_access/" class="dropdown-item">Access</a>
@@ -53,6 +46,10 @@
                                     
 <li>
     <a href="../idea_management_concept/" class="dropdown-item">Concept</a>
+</li>
+                                    
+<li>
+    <a href="../idea_management_dashboard/" class="dropdown-item">Dashboard</a>
 </li>
                                     
 <li>
@@ -113,12 +110,196 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#project-any-role" class="nav-link">Project (any role)</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#project-attributes" class="nav-link">Project Attributes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#add-a-project" class="nav-link">Add a Project</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#edit-a-project" class="nav-link">Edit a Project</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#submit-a-budget" class="nav-link">Submit a Budget</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#approve-a-budget-innovation-manager" class="nav-link">Approve a Budget (Innovation Manager)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#reject-a-budget" class="nav-link">Reject a Budget</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#control-a-project" class="nav-link">Control a Project</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#use-project-tasks" class="nav-link">Use Project Tasks</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#the-project-score-card" class="nav-link">The Project Score Card</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="project-any-role">Project (any role)</h1>
+<p>Projects are approved (project) <a href="../idea_management_sketches/">Sketches</a> which are going to be implemented. Projects are used to plan a project based on the Sketch, track the implementation and evaluate the performance during and after the project.</p>
+<p>The <a href="../idea_management_roles/">Innovation Manager</a> uses Projects to review and govern the overall implementation of projects in cooperation with the assigned project manager.</p>
+<h2 id="project-attributes">Project Attributes</h2>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Possible Value</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Title</td>
+<td><em>short text</em></td>
+<td></td>
+</tr>
+<tr>
+<td>Assigniee</td>
+<td><em>User</em></td>
+<td></td>
+</tr>
+<tr>
+<td>Summary</td>
+<td><em>paragraph</em></td>
+<td></td>
+</tr>
+<tr>
+<td>Status</td>
+<td><em>string</em>: Planning, Budget approval, Budget declined , In progress, Halted, Finished, Stopped</td>
+<td></td>
+</tr>
+<tr>
+<td>Started on</td>
+<td><em>date</em></td>
+<td></td>
+</tr>
+<tr>
+<td>Created on</td>
+<td><em>date</em></td>
+<td></td>
+</tr>
+<tr>
+<td>Milestones*</td>
+<td><em>cards</em></td>
+<td></td>
+</tr>
+<tr>
+<td>Benefits - Cost Saved Monthly</td>
+<td><em>number</em></td>
+<td>Estimated upside in costs</td>
+</tr>
+<tr>
+<td>Benefits - Hours Saved Monthly</td>
+<td><em>number</em></td>
+<td>Estimated upside in man-hours</td>
+</tr>
+<tr>
+<td>Budget Cost</td>
+<td><em>number</em></td>
+<td>Amount of money allocated for the project</td>
+</tr>
+<tr>
+<td>Budget Hours</td>
+<td><em>number</em></td>
+<td>Amount of man-hours allocated for the project</td>
+</tr>
+<tr>
+<td>Spent - Costs</td>
+<td><em>number</em></td>
+<td></td>
+</tr>
+<tr>
+<td>Spent - Hours</td>
+<td><em>number</em></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="milestone-attributes">*Milestone Attributes</h3>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Possible Value</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Title</td>
+<td><em>short text</em></td>
+<td></td>
+</tr>
+<tr>
+<td>Assignee</td>
+<td><em>User</em></td>
+<td></td>
+</tr>
+<tr>
+<td>Descrition</td>
+<td><em>short paragraph</em></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="add-a-project">Add a Project</h2>
+<p>A Project can only be added by starting a project from an approved <a href="../idea_management_sketches/">Sketch</a>. Learn how to approve Sketches <a href="/idea_management_sketches/#approving-a-sketch-innovation-manager">here</a>.</p>
+<h2 id="edit-a-project">Edit a Project</h2>
+<ol>
+<li>Go to the Project tab in your organization.</li>
+<li>Click on the Project which you would like to edit and click on the field you wish to edit.</li>
+<li>Save the Project after editing.</li>
+</ol>
+<h2 id="submit-a-budget">Submit a Budget</h2>
+<p>The budget is subdivided in three parts which are explained in <a href="#the-project-score-card">Project Score Card</a>. Complete the Benefits and Budget fields, click save and <em>Submit</em> to mark the project as <em>Budget Approval Pending</em>. The Project and budget can be reviewed and started by the Innovation Manager.</p>
+<h2 id="approve-a-budget-innovation-manager">Approve a Budget (Innovation Manager)</h2>
+<p>The Innovation Manager can select <em>Approve &amp; start project</em> under the Project Score Card which automatically enables the <a href="#use-project-tasks">milestone tracking</a> and <em>Spent</em> section of the Project Score Card for editing by the project manager.</p>
+<h2 id="reject-a-budget">Reject a Budget</h2>
+<p>A submitted Budget can be declined and will be marked as such. The project manager can edit and submit the budget again.</p>
+<h2 id="control-a-project">Control a Project</h2>
+<p>A Project which is <em>in progress</em> can be changed to three different statuses:</p>
+<ul>
+<li>Stop (indefinit). A project which is cancelled before it is completed. A stopped project cannot be continued later.</li>
+<li>Halt (temporary). A project can be put on hold and continued later if the priorities have changed.</li>
+<li>Finished (indefinit). A project is successfully completed.</li>
+</ul>
+<h2 id="use-project-tasks">Use Project Tasks</h2>
+<p>Novodi provides very simple project management tools which allow an Innovation Manager and project stakeholders to effectively communicate the status of a project.</p>
+<p>Project Tasks are such a tool. Initially Milestones from the Sketch are converted to Tasks and placed as cards in the <em>Todo</em> list.</p>
+<p>Before starting a Project, Tasks can only be edited and added to the the <em>Todo</em> list.</p>
+<p>Once a Project is <em>in progress</em> Tasks can be dragged and dropped to <em>In progress</em> and <em>Done</em>.</p>
+<h2 id="the-project-score-card">The Project Score Card</h2>
+<p>The Project Score Card provides simple metrics to track and evaluate a project and compare it to other projects. Three categories are covered:</p>
+<h3 id="benefits">Benefits</h3>
+<p>The intially estimated impact or upside of implementing the project can be tracked and changed as the project evolves and the impact becomes more obvious.</p>
+<p>The two leading metrics are monthly savings of Costs and therefore actual funds which are currently spent but are going to be available after the project is completed and monthly Hours which can be allocated to other tasks.</p>
+<p>We recommend to carefully estimate and average the benefits to have a comparable metrics across different projects.</p>
+<h3 id="budget">Budget</h3>
+<p>The Budget is split into two fields:</p>
+<p>Cost is the montetary budget which is required for the implementation and Hours are the employee hours which are needed to implement the project.</p>
+<h3 id="spent">Spent</h3>
+<p>Spent relates to Budget metric above and can be updated as the project is progressing. The percentage value is relative to the Budget.</p></div>
             </div>
         </div>
 

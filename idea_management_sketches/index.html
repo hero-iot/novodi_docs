@@ -36,16 +36,9 @@
                             <li class="navitem">
                                 <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="navitem">
-                                <a href="../dashboard/" class="nav-link">Dashboard</a>
-                            </li>
                             <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Idea Management <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../idea_management_overview/" class="dropdown-item">Overview</a>
-</li>
                                     
 <li>
     <a href="../idea_management_access/" class="dropdown-item">Access</a>
@@ -53,6 +46,10 @@
                                     
 <li>
     <a href="../idea_management_concept/" class="dropdown-item">Concept</a>
+</li>
+                                    
+<li>
+    <a href="../idea_management_dashboard/" class="dropdown-item">Dashboard</a>
 </li>
                                     
 <li>
@@ -113,12 +110,179 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#sketch-any-role" class="nav-link">Sketch (any role)</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#sketch-attributes" class="nav-link">Sketch Attributes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#add-a-sketch" class="nav-link">Add a Sketch</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#edit-a-sketch" class="nav-link">Edit a Sketch</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#submit-a-sketch" class="nav-link">Submit a Sketch</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#reviewing-sketches-innovation-manager" class="nav-link">Reviewing Sketches (Innovation Manager)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#using-the-decision-matrix-tab" class="nav-link">Using the Decision Matrix Tab</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#retracting-a-sketch" class="nav-link">Retracting a Sketch</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#approving-a-sketch-innovation-manager" class="nav-link">Approving a Sketch (Innovation Manager)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#rejecting-a-sketch-innovation-manager" class="nav-link">Rejecting a Sketch (Innovation Manager)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="sketch-any-role">Sketch (any role)</h1>
+<p>Sketches are approved <a href="../idea_management_ideas/">Ideas</a> which should be assessed for their potential upside, risks and effort an implementation would imply.
+The (project) Sketch is assigned to a person who is best suited to accurately assess the possible project and allow the decision makers to compare this and other Sketches for informed decision making on what projects will be implemented and when.</p>
+<p>The Innovation Manager facilitates the process but an assigned owner of the Sketch is responsible for the assessment. The abstracted score 1-10 for impact and cost is governed by the Innovation manager in cooperation with the assignee.</p>
+<p>A sketch can be <em>Approved</em> but not yet converted to a project, <em>Rejected</em>, <em>Parked</em> for later re-assessment or directly converted to a project.</p>
+<h2 id="sketch-attributes">Sketch Attributes</h2>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Possible Value</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Title</td>
+<td><em>short text</em></td>
+<td></td>
+</tr>
+<tr>
+<td>Assigniee</td>
+<td><em>User</em></td>
+<td></td>
+</tr>
+<tr>
+<td>Summary</td>
+<td><em>paragraph</em></td>
+<td></td>
+</tr>
+<tr>
+<td>Status</td>
+<td><em>string</em>: Draft, Submitted, Rejected, Approved</td>
+<td></td>
+</tr>
+<tr>
+<td>Created by</td>
+<td><em>date</em></td>
+<td></td>
+</tr>
+<tr>
+<td>Submitted on</td>
+<td><em>date</em></td>
+<td></td>
+</tr>
+<tr>
+<td>Description</td>
+<td><em>paragraph</em></td>
+<td></td>
+</tr>
+<tr>
+<td>Advantages</td>
+<td><em>paragraph</em></td>
+<td></td>
+</tr>
+<tr>
+<td>Risks</td>
+<td><em>paragraph</em></td>
+<td>Project risks</td>
+</tr>
+<tr>
+<td>Costs</td>
+<td><em>paragraph</em></td>
+<td>Budget required</td>
+</tr>
+<tr>
+<td>Impact</td>
+<td><em>paragraph</em></td>
+<td>Upside of implementing the project</td>
+</tr>
+<tr>
+<td>Required resources</td>
+<td><em>paragraph</em></td>
+<td>Additional resources to the budget indicated in Costs</td>
+</tr>
+<tr>
+<td>Costs Score</td>
+<td><em>number 1-10</em></td>
+<td>from 1 low costs to 10 high costs</td>
+</tr>
+<tr>
+<td>Impact Score</td>
+<td><em>number 1-10</em></td>
+<td>from 1 low upside to 10 high upside</td>
+</tr>
+<tr>
+<td>Milestones</td>
+<td><em>list</em></td>
+<td>High level steps in which a possible project can be subdivided.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="add-a-sketch">Add a Sketch</h2>
+<p>A Sketch can only be added by converting an approved Idea to a Sketch. Learn how to approve ideas <a href="/idea_management_ideas/#approving-an-idea-innovation-manager">here</a>.</p>
+<h2 id="edit-a-sketch">Edit a Sketch</h2>
+<ol>
+<li>Go to the Sketch tab in your organization.</li>
+<li>Click on the Sketch which you would like to edit and click <em>edit</em></li>
+<li>Save the Sketch after editing.</li>
+</ol>
+<h2 id="submit-a-sketch">Submit a Sketch</h2>
+<p>Once all fields of the Sketch are completed, the assignee can submit the Sketch.</p>
+<h2 id="reviewing-sketches-innovation-manager">Reviewing Sketches (Innovation Manager)</h2>
+<ol>
+<li>Go to the Sketch tab in your organziation</li>
+<li>Filter for Sketches with the status <em>submitted</em>.</li>
+<li>
+<p>Click on the Sketch you wish to review</p>
+<ul>
+<li>approve the Sketch</li>
+<li>reject the Sketch</li>
+<li>retract submission</li>
+</ul>
+</li>
+</ol>
+<p>The status of the Sketch will change accordingly.</p>
+<h2 id="using-the-decision-matrix-tab">Using the Decision Matrix Tab</h2>
+<p>The Decision Matrix can be used to prioritize submitted Sketches based on their impact or upside they have in combination with their associated costs. The abstract score for impact and costs sorts Sketches into quadrants accordingly.</p>
+<h2 id="retracting-a-sketch">Retracting a Sketch</h2>
+<p>Retracting the Sketch changes its status to <em>draft</em>. You can edit and submit the Sketch again.</p>
+<p>Only the user who submitted the Sketch can retract it.</p>
+<h2 id="approving-a-sketch-innovation-manager">Approving a Sketch (Innovation Manager)</h2>
+<p>Approving the Sketch will trigger a pop-up. You will be prompted to assign the Sketch to a user who is responsible for completing the Sketch. The status of the Idea will automatically change to <em>approved</em>.</p>
+<p>Only clicking <em>Start Project</em> for an approved Sketch will create a new Project which can be assigned to a project manager for refining the Project details.</p>
+<p><a href="../idea_management_projects/">Learn more about Project</a>.</p>
+<h2 id="rejecting-a-sketch-innovation-manager">Rejecting a Sketch (Innovation Manager)</h2>
+<p>The status of the Idea will be automatically changed to <em>rejected</em>.</p></div>
             </div>
         </div>
 
