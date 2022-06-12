@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://docs.novodi.com/idea_management_roles/">
+        <link rel="canonical" href="https://docs.novodi.com/administration/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Roles - Novodi Documentation</title>
+        <title>Administration - Novodi Documentation</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -36,7 +36,7 @@
                             <li class="navitem">
                                 <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Idea Management <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
@@ -65,12 +65,12 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">Roles</a>
+    <a href="../idea_management_roles/" class="dropdown-item">Roles</a>
 </li>
                                 </ul>
                             </li>
-                            <li class="navitem">
-                                <a href="../administration/" class="nav-link">Administration</a>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Administration</a>
                             </li>
                             <li class="navitem">
                                 <a href="../marketplace/" class="nav-link">Marketplace</a>
@@ -87,12 +87,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../idea_management_projects/" class="nav-link">
+                                <a rel="prev" href="../idea_management_roles/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../administration/" class="nav-link">
+                                <a rel="next" href="../marketplace/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -114,25 +114,9 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#idea-management-roles" class="nav-link">Idea Management Roles</a>
+            <li class="nav-item" data-level="1"><a href="#organization-administration" class="nav-link">Organization administration</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#overview" class="nav-link">Overview</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#user" class="nav-link">User</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#innovation-manager" class="nav-link">Innovation Manager</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#user-manager" class="nav-link">User Manager</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#owner" class="nav-link">Owner</a>
+            <li class="nav-item" data-level="2"><a href="#general" class="nav-link">General</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -143,67 +127,73 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="idea-management-roles">Idea Management Roles</h1>
-<p>The different roles are different levels of access. Learn more about the concept behind the roles in the article <a href="/idea_management_concept">Idea Management Concept</a></p>
-<h2 id="overview">Overview</h2>
+<h1 id="organization-administration">Organization administration</h1>
+<p>Administration of the organization is done via Settings. Here, everything about the tenant can be configured.</p>
+<h2 id="general">General</h2>
+<p>In the general tab, you can view and edit your own user account, as well as the organization details.</p>
+<h3 id="account">Account</h3>
 <table>
 <thead>
 <tr>
-<th>Features</th>
-<th>User</th>
-<th>Innovation Manager</th>
-<th>User Manager</th>
-<th>Owner</th>
+<th>Field</th>
+<th>Description</th>
+<th>Editable</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Submit and edit own ideas</strong></td>
-<td>yes</td>
-<td>yes</td>
-<td>yes</td>
-<td>yes</td>
-</tr>
-<tr>
-<td><strong>Submit and edit own project sketches</strong></td>
-<td>yes</td>
-<td>yes</td>
-<td>yes</td>
-<td>yes</td>
-</tr>
-<tr>
-<td><strong>Submit and edit own projects</strong></td>
-<td>yes</td>
-<td>yes</td>
-<td>yes</td>
-<td>yes</td>
-</tr>
-<tr>
-<td><strong>View ideas, project sketches or project from others</strong></td>
-<td>No</td>
-<td>Yes</td>
-<td>No</td>
+<td>Name</td>
+<td>First and last name of the user</td>
 <td>Yes</td>
 </tr>
 <tr>
-<td><strong>Invite new Users</strong></td>
+<td>Email</td>
+<td>Email address of the user</td>
 <td>No</td>
+</tr>
+<tr>
+<td>Roles</td>
+<td>The roles of the current user</td>
 <td>No</td>
-<td>Yes</td>
-<td>Yes</td>
 </tr>
 </tbody>
 </table>
-<h2 id="user">User</h2>
-<p>A User can be added by added by an Owner or User Manager. They can submit and manage what the User created and or was assigned (Ideas, Sketches, Projects).</p>
-<h2 id="innovation-manager">Innovation Manager</h2>
-<p>Innovation Managers facilitates the process of collecting and qualifying ideas, prioritizing project sketches and assists project creation and implementation.</p>
-<p>They can create and edit all ideas, project sketches and projects and have access to the evaluation and approval options.</p>
-<h2 id="user-manager">User Manager</h2>
-<p>User Manager controls who can access the idea management platform and what Roles users have.</p>
-<p>They can submit and manage what the user created and or was assigned (ideas, project sketches, projects) to them.</p>
-<h2 id="owner">Owner</h2>
-<p>There is only one Owner per organisation who has full access to the user management and idea management features.</p></div>
+<h3 id="organization">Organization</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+<th>Editable</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name</td>
+<td>Display name of the organization</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Owner</td>
+<td>The username of the owner of the organization</td>
+<td>No*</td>
+</tr>
+<tr>
+<td>Associated domains</td>
+<td>The domain names that are associated with this organization</td>
+<td>No*</td>
+</tr>
+<tr>
+<td>*Contact customer support if you need to change this setting.</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="owner">Owner</h4>
+<p>The owner of the organization has all the permissions within the tenant without explicitly assigning them. When a new organization is created, the owner can invite other users and assign roles to other users.</p>
+<h4 id="associated-domains">Associated domains</h4>
+<p>Domain names can be associated with the organization to allow users that have an email address on that domain to access the organization. This way, any user in your company sign up to Novodi and access the organization without explicitly inviting them. An organization can have multiple associated domains. Contact customer support to add or remove associated domains.</p></div>
             </div>
         </div>
 

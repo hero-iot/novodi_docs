@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.novodi.com/administration/</loc>
+         <lastmod>2022-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.novodi.com/idea_management_access/</loc>
          <lastmod>2022-06-12</lastmod>
          <changefreq>daily</changefreq>
