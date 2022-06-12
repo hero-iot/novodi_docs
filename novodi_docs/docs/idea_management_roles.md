@@ -4,13 +4,13 @@ The different roles are different levels of access. Learn more about the concept
 
 ## Overview
 
-|Features|User|Innovation Manager|User Manager|Owner|
-|---|---|---|---|---|
-|**Submit and edit own ideas**|yes|yes|yes|yes|
-|**Submit and edit own project sketches**|yes|yes|yes|yes|
-|**Submit and edit own projects**|yes|yes|yes|yes|
-|**View ideas, project sketches or project from others**|No|Yes|No|Yes|
-|**Invite new Users**|No|No|Yes|Yes|
+| Features                                                | User | Innovation Manager | User Manager | Owner |
+| ------------------------------------------------------- | ---- | ------------------ | ------------ | ----- |
+| **Submit and edit own ideas**                           | yes  | yes                | yes          | yes   |
+| **Submit and edit own project sketches**                | yes  | yes                | yes          | yes   |
+| **Submit and edit own projects**                        | yes  | yes                | yes          | yes   |
+| **View ideas, project sketches or project from others** | No   | Yes                | No           | Yes   |
+| **Invite new Users**                                    | No   | No                 | Yes          | Yes   |
 
 ## User
 
