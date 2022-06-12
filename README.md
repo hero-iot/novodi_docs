@@ -25,3 +25,9 @@ mkdocs serve
 ## Developing with mkdocs
 
 Visit the [documentation of mkdocs](https://www.mkdocs.org/user-guide)
+
+## Deploying to GitHub Pages
+```bash
+cd novodi_docs
+mkdocs gh-deploy
+```
