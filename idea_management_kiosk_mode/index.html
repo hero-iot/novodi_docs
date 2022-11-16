@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://docs.novodi.com/idea_management_access/">
+        <link rel="canonical" href="https://docs.novodi.com/idea_management_kiosk_mode/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Access - Novodi Documentation</title>
+        <title>Kiosk mode - Novodi Documentation</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -41,7 +41,7 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="./" class="dropdown-item active">Access</a>
+    <a href="../idea_management_access/" class="dropdown-item">Access</a>
 </li>
                                     
 <li>
@@ -69,7 +69,7 @@
 </li>
                                     
 <li>
-    <a href="../idea_management_kiosk_mode/" class="dropdown-item">Kiosk mode</a>
+    <a href="./" class="dropdown-item active">Kiosk mode</a>
 </li>
                                 </ul>
                             </li>
@@ -91,12 +91,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href=".." class="nav-link">
+                                <a rel="prev" href="../idea_management_roles/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../idea_management_concept/" class="nav-link">
+                                <a rel="next" href="../administration/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -118,9 +118,9 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#idea-management-access" class="nav-link">Idea Management Access</a>
+            <li class="nav-item" data-level="1"><a href="#idea-list-kiosk-mode" class="nav-link">Idea List Kiosk Mode</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#getting-access-to-idea-management" class="nav-link">Getting Access to Idea Management</a>
+            <li class="nav-item" data-level="2"><a href="#how-to-enter-kiosk-mode" class="nav-link">How to enter Kiosk Mode</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -131,21 +131,12 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="idea-management-access">Idea Management Access</h1>
-<h2 id="getting-access-to-idea-management">Getting Access to Idea Management</h2>
-<p>The Novodi idea management is currently in an early adapter phase. Getting access requires an organisation. Write an email to hello@novodi.app to apply for an early adapter organisation.</p>
-<p>Existing organisations can be accessed in three different ways:</p>
-<ol>
-<li>
-<p>Log in with your account on <a href="https://novodi.app/en/home">novodi.app</a> and select your organisation from the dropdown on the top right.</p>
-</li>
-<li>
-<p>Go directly to your organisation by entering your organisation-id before in the link <em>organisation-id</em>.novodi.app</p>
-</li>
-<li>
-<p>Ask the <a href="/idea_management_roles/#owner">Owner</a></p>
-</li>
-</ol></div>
+<h1 id="idea-list-kiosk-mode">Idea List Kiosk Mode</h1>
+<p>The Idea List Kiosk Mode allows you to show all the submitted ideas on a kiosk screen. This can be interesting for example during an idea generation event where users add ideas using the <a href="/idea_management_ideas/#qr-code-idea-submission">QR Code method</a>. </p>
+<p>In Kiosk Mode, the Idea List will refresh every 10 seconds so that newly submitted ideas are immediately visible.</p>
+<h2 id="how-to-enter-kiosk-mode">How to enter Kiosk Mode</h2>
+<p>The Kiosk Mode is entered by navigating to the idea list, and adding the following to the end of the url: <code>?kiosk=true</code>.
+The full url will be: <code>https://organization-slug.novodi.app/en/ideas/list?kiosk=true</code>. Make sure to replace <code>organizaton-slug</code> with your own organization slug.</p></div>
             </div>
         </div>
 

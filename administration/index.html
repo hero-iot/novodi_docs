@@ -67,6 +67,10 @@
 <li>
     <a href="../idea_management_roles/" class="dropdown-item">Roles</a>
 </li>
+                                    
+<li>
+    <a href="../idea_management_kiosk_mode/" class="dropdown-item">Kiosk mode</a>
+</li>
                                 </ul>
                             </li>
                             <li class="navitem active">
@@ -87,7 +91,7 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../idea_management_roles/" class="nav-link">
+                                <a rel="prev" href="../idea_management_kiosk_mode/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
@@ -121,6 +125,10 @@
               </ul>
             </li>
             <li class="nav-item" data-level="2"><a href="#members" class="nav-link">Members</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#api-keys" class="nav-link">API Keys</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -201,7 +209,63 @@
 <h3 id="assign-user-roles">Assign user roles</h3>
 <p>To manage user roles, click the key button in the row of the user. Be aware that you need to have the 'User Manager' role to be able to manage user roles. After clicking the button, a window will pop up where you can use the drop down button to select the roles that the user should have. Remove a role by clicking the X. Hit Save to apply the changes. Hit Cancel to discard changes.</p>
 <h3 id="remove-a-user-from-the-tenant">Remove a user from the tenant</h3>
-<p>To remove a user from the organization, click the trash can icon.</p></div>
+<p>To remove a user from the organization, click the trash can icon.</p>
+<h2 id="api-keys">API Keys</h2>
+<p>API keys can be created to allow other applications to access Novodi data. </p>
+<h3 id="create-an-api-key">Create an API Key</h3>
+<p>To create an API key, use the 'New key' button on the API Key page. Fill in the form that pops up to create an API Key.</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name</strong></td>
+<td>The name of the API Key</td>
+</tr>
+<tr>
+<td><strong>Expiry date</strong></td>
+<td>Leave blank for a non-expiring key. Choose a date to let the key expire</td>
+</tr>
+<tr>
+<td><strong>Superkey</strong></td>
+<td>Select this option to give the key all the permissions as available in the Permission Groups. Please note this does not grant access to all the API functionalities, only the API endpoints that support API key authorization.</td>
+</tr>
+<tr>
+<td><strong>Permisson Groups</strong></td>
+<td>Select the permission groups this API Key should have access to. Please note that a permission group can have multiple underlying permissions. See the table below for more details on the permission groups.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="api-key-permission-groups">API Key permission groups</h3>
+<p>The authorization level of an API key is defined by assigning permission groups to the API Key upon creation. </p>
+<table>
+<thead>
+<tr>
+<th>Permission group</th>
+<th>Permission</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Superkey</strong></td>
+<td>The key grants access to all the available permission groups</td>
+</tr>
+<tr>
+<td><strong>Add Ideas</strong></td>
+<td>Add new ideas</td>
+</tr>
+</tbody>
+</table>
+<h3 id="generate-qr-code">Generate QR Code</h3>
+<p>When an API Key with the 'Add ideas' permission is created, you have the option to generate a QR code that users can scan to submit an idea. See <a href="/idea_management_ideas/#qr-code-idea-submission">QR Code Idea Submission</a> for more info about this function. </p>
+<p>To generate a QR code, create an API Key with the 'Add ideas' permission. 
+<img alt="Create API Key" src="../img/create-api-key.png" /></p>
+<p>Click 'Ok' to create the API key. When the API Key is created, click 'Create QR Code' to generate the QR Code. The image download should start automatically. Click the QR code to download the image again.
+<img alt="Create QR Code" src="../img/generate-qr-code.png" /></p></div>
             </div>
         </div>
 
