@@ -11,9 +11,9 @@ nav:
       - 'Sketches' : 'idea_management_sketches.md'
       - 'Projects' : 'idea_management_projects.md'
       - 'Roles' : 'idea_management_roles.md'
+      - 'Kiosk mode' : 'idea_management_kiosk_mode.md'
     - Administration: 'administration.md'
     - Marketplace : 'marketplace.md'
-
     - About: about.md
 
 theme:

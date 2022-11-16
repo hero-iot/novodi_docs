@@ -39,3 +39,35 @@ To manage user roles, click the key button in the row of the user. Be aware that
 
 ### Remove a user from the tenant
 To remove a user from the organization, click the trash can icon.
+
+
+
+## API Keys
+API keys can be created to allow other applications to access Novodi data. 
+
+### Create an API Key
+To create an API key, use the 'New key' button on the API Key page. Fill in the form that pops up to create an API Key.
+
+| Field                | Description                                                                                                                                                                                                                     |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Name**             | The name of the API Key                                                                                                                                                                                                         |
+| **Expiry date**      | Leave blank for a non-expiring key. Choose a date to let the key expire                                                                                                                                                         |
+| **Superkey**         | Select this option to give the key all the permissions as available in the Permission Groups. Please note this does not grant access to all the API functionalities, only the API endpoints that support API key authorization. |
+| **Permisson Groups** | Select the permission groups this API Key should have access to. Please note that a permission group can have multiple underlying permissions. See the table below for more details on the permission groups.                   |
+
+### API Key permission groups
+The authorization level of an API key is defined by assigning permission groups to the API Key upon creation. 
+
+| Permission group | Permission                                                   |
+| ---------------- | ------------------------------------------------------------ |
+| **Superkey**     | The key grants access to all the available permission groups |
+| **Add Ideas**    | Add new ideas                                                |
+
+### Generate QR Code
+When an API Key with the 'Add ideas' permission is created, you have the option to generate a QR code that users can scan to submit an idea. See [QR Code Idea Submission](/idea_management_ideas/#qr-code-idea-submission) for more info about this function. 
+
+To generate a QR code, create an API Key with the 'Add ideas' permission. 
+![Create API Key](img/create-api-key.png)
+
+Click 'Ok' to create the API key. When the API Key is created, click 'Create QR Code' to generate the QR Code. The image download should start automatically. Click the QR code to download the image again.
+![Create QR Code](img/generate-qr-code.png)

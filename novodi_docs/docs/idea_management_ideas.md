@@ -43,6 +43,16 @@ You can still edit the idea but the Innovation Manager will already see that you
 
 Click on the Idea in the Idea tab and then click 'submit'.
 
+## QR Code Idea Submission
+Novodi has the option to submit ideas using a mobile device by scanning a QR Code. The QR Code takes the user to a mobile webpage where it can submit an idea, even without having an account on Novodi. Use this option to encourage users to submit ideas by printing posters with the QR code that users can scan. 
+
+Although the user does not need to have an account, the user is required to leave a name and email address so the user can be contacted in a later stage. Ideas submitted via a QR Code will show that is was created using a QR code in the details section of the idea:
+
+![Idea Details Created By QR Code](img/idea-details-created-by-qr.png)
+
+See [Generate QR Code](/administration/#generate-qr-code) to learn how to generate a QR Code.
+
+
 ## Reviewing Ideas (Innovation Manager)
 
 1. Go to the Idea tab in your organization
